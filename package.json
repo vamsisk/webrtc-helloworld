@@ -1,0 +1,19 @@
+{
+  "name": "webrtc-helloworld",
+  "version": "1.0.0",
+  "description": "A WebRTC Hello World built with NodeJS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vamsisk/webrtc-helloworld.git"
+  },
+  "author": "Vamsi Krishna Sure",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vamsisk/webrtc-helloworld/issues"
+  },
+  "homepage": "https://github.com/vamsisk/webrtc-helloworld#readme"
+}

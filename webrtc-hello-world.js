@@ -2,8 +2,8 @@ var https = require('https');
 var fs = require('fs');
 
 const options = {
-    key: fs.readFileSync('./key.pem'),
-    cert: fs.readFileSync('./cert.pem')
+    key: fs.readFileSync('./security/key.pem'),
+    cert: fs.readFileSync('./security/cert.pem')
 };
 
 fs.readFile('./pages/webrtc-hello-world.html', function (err, html) {

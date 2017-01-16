@@ -3,7 +3,7 @@ var fs = require('fs');
 
 const options = {
     key: fs.readFileSync('./key.pem'),
-    cert: fs.readyFileSync('./cert.pem')
+    cert: fs.readFileSync('./cert.pem')
 };
 
 fs.readFile('./pages/webrtc-hello-world.html', function (err, html) {
